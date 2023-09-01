@@ -1,0 +1,81 @@
+.head{
+    background: blue;
+    padding: 20px;
+}
+body{
+    background:  white ;
+    border-style: 2px inset solid red;
+}
+.box1{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+.box2{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+.box3{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+.box4{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+.box5{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+table{
+    border: 2px solid black;
+    border-spacing: 5px;
+    background: white;
+    
+}
+td {
+          /* cell padding */
+          padding: 5px;
+       }
+.chores{
+    background: #47ff40;
+    height: 350px;
+}
+.chore{
+    background: white;
+   
+    height: 40px;
+    
+}
+.chores2{
+    background: #ff15e7;
+    height: 300px;
+}
+.box6{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+.box7{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+.box8{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+.box9{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+button{
+    background: red;
+    color: white;
+}

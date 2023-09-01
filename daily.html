@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="daily.js"></script>
+    <link rel="stylesheet" href="daily.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<body>
+    
+    <center>
+        
+        <hr>
+    <div class="head">
+        
+        <h1>MY DAILY CHORES.</h1>
+        
+    </div>
+    <hr>
+  <div class="chore"> 
+      
+      <h3>chores of the day</h3>
+  </div><hr>
+  
+    
+    <div class="chores">
+        
+        
+        <h2>morning</h2>
+ 
+       
+        <table>
+            <colgroup>
+                <col style="background:blue;"></col>
+                <col style="background:red;"></col>
+            </colgroup>
+            <thead>
+              
+                <tr>
+                    <th>Activity</th>
+                    <th>Mark</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>laying bed</td>
+                    <td>
+                       <div class="box1" id="box1" onclick="change();"></div></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Bathing
+                    </td>
+                    <td>
+                        <div class="box2" id="box2" onclick="red();"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Utensils
+                    </td>
+                    <td>
+                        <div class="box3" id="box3" onclick="orange();"></div>
+                        
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        Sweeping the floor
+                    </td>
+                    <td>
+                        <div class="box4" id="box4" onclick="yellow();"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Taking the plates</td>
+                    <td>
+                        <div class="box5" id="box5" onclick="green();"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+         <button onclick="now();">Click!</button>
+    </div>
+    <hr>
+    <div class="chores2">
+       <h1> Evening</h1>
+        <table>
+            <colgroup>
+                <col style="background: blue;"></col>
+                <col style="background: red;"></col>
+            </colgroup>
+            <tbody>
+                <tr>
+                    <td>Fetch water</td>
+                    <td><div class="box6" id="box6" onclick="blue();"></div></td>
+                </tr>
+                <tr>
+                    <td>Wash utensils</td>
+                    <td><div class="box7" id="box7" onclick="indigo();"></div></td>
+                </tr>
+                <tr>
+                    <td>Cook tea</td>
+                    <td><div class="box8" id="box8" onclick="violet();"></div></td>
+                </tr>
+                <tr>
+                    <td>Bathe</td>
+                    <td><div class="box9" id="box9" onclick="black();"></div></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+ <button id="song" onclick="message();">Click!</button>
+    </div>
+    <hr>
+     </center>      
+</body>
+</html>
